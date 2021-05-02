@@ -6,7 +6,7 @@ import { componentFactoryName } from '@angular/compiler';
         template: `
 
         <h1> {{titulo}}</h1>
-        <h3>La Base es 5<strong>{{acumulador}}</strong></h3>
+        <h3>La Base es <strong>{{acumulador}}</strong></h3>
 
         <button (click)="Base(+acumulador)">+{{acumulador}}</button>
 
